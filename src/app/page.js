@@ -1,7 +1,8 @@
 export default function index(){
     return(
         <div>
-            <h1>hello World</h1>
+            <h1>Home</h1>
+            <a href="/projects">Go to Projects</a>
         </div>
     );
 }
