@@ -1,39 +1,102 @@
 html, body {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    max-width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
+
+    
+    background-color: #000000;
+    color: white;
+}
+
+main {
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    margin-top: 8vh;
+
+    flex: 1;
+    overflow-y: auto;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 h1{
     font-size: 2em;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
 
-    background-color: rgb(39, 39, 39);
-    color: white;
-    
-    width: 100%;
+
+nav{
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
     height: auto;
 
-    line-height: 30px;
-    padding-left: 5vw;
+    padding: 2.5vh 0 2.5vh 5vw;
+
+    background-color: #0e0e0e;
+    border-bottom: #393939 solid 1px;
+
+    position: fixed;
+    top: 0;
+}
+nav .navLinks a{
+    margin-right: 2vw;
+    padding-right: 1vw;
+}
+nav .navResume {
+    margin-right: 5vw;
+    margin-left: auto;
+
+    padding: 2%;
+
+    border: #FFF solid 1px;
+    border-radius: 2px;
 }
 
+
+footer{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 2vh;
+    
+    position: relative;
+    bottom: 0;
+
+    border-top: #393939 solid 1px;
+
+    color: white;
+    
+    line-height: 3vh;
+}
+footer img{
+    height: 3vh;
+    width: auto;
+
+    margin-right: 1vw;
+}
 footer a{
     color: white;
 
     margin: 0;
     padding: 0;
-    
-    display: block;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
