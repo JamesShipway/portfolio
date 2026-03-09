@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './global.css';
 
 export default function RootLayout({ children }) {
@@ -17,9 +18,9 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <footer>
-          <a href="mailto:17jtshipway@gmail.com"><img src="/emailLogo.svg" alt="Email Logo" /></a>
-          <a href="https://github.com/JamesShipway"><img src="/GithubLogo.svg" alt="GitHub Logo" /></a>
-          <a href="https://www.linkedin.com/in/james-shipway-61879a1a2/"><img src="/linkedinLogo.svg" alt="LinkedIn Logo" /></a>
+          <Link href="mailto:17jtshipway@gmail.com"><Image src="/emailLogo.svg" alt="Email Logo" /></Link>
+          <Link href="https://github.com/JamesShipway"><Image src="/GithubLogo.svg" alt="GitHub Logo" /></Link>
+          <Link href="https://www.linkedin.com/in/james-shipway-61879a1a2/"><Image src="/linkedinLogo.svg" alt="LinkedIn Logo" /></Link>
         </footer>
       </body>
     </html>
