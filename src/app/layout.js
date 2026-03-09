@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import './global.css';
 
@@ -18,9 +19,9 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <footer>
-          <Link href="mailto:17jtshipway@gmail.com"><Image src="/emailLogo.svg" alt="Email Logo" /></Link>
-          <Link href="https://github.com/JamesShipway"><Image src="/GithubLogo.svg" alt="GitHub Logo" /></Link>
-          <Link href="https://www.linkedin.com/in/james-shipway-61879a1a2/"><Image src="/linkedinLogo.svg" alt="LinkedIn Logo" /></Link>
+          <Link href="mailto:17jtshipway@gmail.com"><Image src="/emailLogo.svg" width={30} height={30} alt="Email Logo" /></Link>
+          <Link href="https://github.com/JamesShipway"><Image src="/GithubLogo.svg" width={30} height={30} alt="GitHub Logo" /></Link>
+          <Link href="https://www.linkedin.com/in/james-shipway-61879a1a2/"><Image src="/linkedinLogo.svg" width={30} height={30} alt="LinkedIn Logo" /></Link>
         </footer>
       </body>
     </html>
