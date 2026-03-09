@@ -17,8 +17,6 @@ main {
     padding-left: 5vw;
     padding-right: 5vw;
 
-    margin-top: 8vh;
-
     flex: 1;
     overflow-y: auto;
 }
@@ -46,7 +44,6 @@ nav{
     background-color: #0e0e0e;
     border-bottom: #393939 solid 1px;
 
-    position: fixed;
     top: 0;
 }
 nav .navLinks a{
